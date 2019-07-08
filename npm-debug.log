@@ -1,0 +1,312 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '@babel/core',
+1 verbose cli   'babel/loader',
+1 verbose cli   '@babel/preset-env',
+1 verbose cli   '@babel/preset-react',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @babel/core
+8 silly fetchPackageMetaData babel/loader
+9 silly fetchPackageMetaData @babel/preset-env
+10 silly fetchPackageMetaData @babel/preset-react
+11 silly fetchNamedPackageData @babel/core
+12 silly mapToRegistry name @babel/core
+13 silly mapToRegistry scope (from package name) @babel
+14 verbose mapToRegistry no registry URL found in name for scope @babel
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: '@babel/core',
+17 silly mapToRegistry   scope: '@babel',
+17 silly mapToRegistry   escapedName: '@babel%2fcore',
+17 silly mapToRegistry   name: '@babel/core',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fcore
+19 silly fetchOtherPackageData babel/loader
+20 silly cache add args [ 'babel/loader', null ]
+21 verbose cache add spec babel/loader
+22 silly fetchNamedPackageData @babel/preset-env
+23 silly mapToRegistry name @babel/preset-env
+24 silly mapToRegistry scope (from package name) @babel
+25 verbose mapToRegistry no registry URL found in name for scope @babel
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@babel/preset-env',
+28 silly mapToRegistry   scope: '@babel',
+28 silly mapToRegistry   escapedName: '@babel%2fpreset-env',
+28 silly mapToRegistry   name: '@babel/preset-env',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-env
+30 silly fetchNamedPackageData @babel/preset-react
+31 silly mapToRegistry name @babel/preset-react
+32 silly mapToRegistry scope (from package name) @babel
+33 verbose mapToRegistry no registry URL found in name for scope @babel
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: '@babel/preset-react',
+36 silly mapToRegistry   scope: '@babel',
+36 silly mapToRegistry   escapedName: '@babel%2fpreset-react',
+36 silly mapToRegistry   name: '@babel/preset-react',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/@babel%2fpreset-react
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'babel/loader',
+38 silly cache add   scope: null,
+38 silly cache add   escapedName: null,
+38 silly cache add   name: null,
+38 silly cache add   rawSpec: 'babel/loader',
+38 silly cache add   spec: 'github:babel/loader',
+38 silly cache add   type: 'hosted',
+38 silly cache add   hosted:
+38 silly cache add    { type: 'github',
+38 silly cache add      ssh: 'git@github.com:babel/loader.git',
+38 silly cache add      sshUrl: 'git+ssh://git@github.com/babel/loader.git',
+38 silly cache add      httpsUrl: 'git+https://github.com/babel/loader.git',
+38 silly cache add      gitUrl: 'git://github.com/babel/loader.git',
+38 silly cache add      shortcut: 'github:babel/loader',
+38 silly cache add      directUrl: 'https://raw.githubusercontent.com/babel/loader/master/package.json' } }
+39 verbose addRemoteGit caching babel/loader
+40 verbose addRemoteGit babel/loader is a repository hosted by github
+41 silly tryGitProto attempting to clone git://github.com/babel/loader.git
+42 silly tryClone cloning babel/loader via git://github.com/babel/loader.git
+43 verbose tryClone git-github-com-babel-loader-git-f8a540b1 not in flight; caching
+44 verbose correctMkdir /home/pranali/.npm/_git-remotes correctMkdir not in flight; initializing
+45 verbose request uri https://registry.npmjs.org/@babel%2fpreset-env
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 3:45:14 PM
+48 verbose request id a0dc065710bc7ad9
+49 http request GET https://registry.npmjs.org/@babel%2fpreset-env
+50 verbose request uri https://registry.npmjs.org/@babel%2fcore
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 3:45:14 PM
+53 http request GET https://registry.npmjs.org/@babel%2fcore
+54 verbose request uri https://registry.npmjs.org/@babel%2fpreset-react
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 3:45:14 PM
+57 http request GET https://registry.npmjs.org/@babel%2fpreset-react
+58 info git [ 'clone',
+58 info git   '--template=/home/pranali/.npm/_git-remotes/_templates',
+58 info git   '--mirror',
+58 info git   'git://github.com/babel/loader.git',
+58 info git   '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-f8a540b1' ]
+59 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-f8a540b1: Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-f8a540b1'...
+59 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-f8a540b1: fatal: remote error:
+59 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-f8a540b1:   Repository not found.
+60 silly tryHTTPS attempting to clone git+https://github.com/babel/loader.git
+61 silly tryClone cloning babel/loader via git+https://github.com/babel/loader.git
+62 verbose tryClone git-https-github-com-babel-loader-git-a160e7d1 not in flight; caching
+63 verbose correctMkdir /home/pranali/.npm/_git-remotes correctMkdir not in flight; initializing
+64 http 200 https://registry.npmjs.org/@babel%2fpreset-react
+65 verbose headers { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+65 verbose headers   'content-type': 'application/json',
+65 verbose headers   'transfer-encoding': 'chunked',
+65 verbose headers   connection: 'keep-alive',
+65 verbose headers   'set-cookie': [ '__cfduid=d469beea58f29c78a1f96c0195b0610591562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+65 verbose headers   'cf-cache-status': 'HIT',
+65 verbose headers   'cache-control': 'public, max-age=300',
+65 verbose headers   'cf-ray': '4f314bbd4c11aae6-MAA',
+65 verbose headers   age: '843',
+65 verbose headers   etag: 'W/"12803bdff8dfabe8026eeac801d3e8ea"',
+65 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+65 verbose headers   'last-modified': 'Fri, 28 Dec 2018 20:16:15 GMT',
+65 verbose headers   vary: 'Accept-Encoding',
+65 verbose headers   'x-amz-meta-rev': '57-bc25177aba08f09487ca541a925e0a89',
+65 verbose headers   server: 'cloudflare',
+65 verbose headers   'content-encoding': 'gzip' }
+66 silly get cb [ 200,
+66 silly get   { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+66 silly get     'content-type': 'application/json',
+66 silly get     'transfer-encoding': 'chunked',
+66 silly get     connection: 'keep-alive',
+66 silly get     'set-cookie': [ '__cfduid=d469beea58f29c78a1f96c0195b0610591562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+66 silly get     'cf-cache-status': 'HIT',
+66 silly get     'cache-control': 'public, max-age=300',
+66 silly get     'cf-ray': '4f314bbd4c11aae6-MAA',
+66 silly get     age: '843',
+66 silly get     etag: 'W/"12803bdff8dfabe8026eeac801d3e8ea"',
+66 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+66 silly get     'last-modified': 'Fri, 28 Dec 2018 20:16:15 GMT',
+66 silly get     vary: 'Accept-Encoding',
+66 silly get     'x-amz-meta-rev': '57-bc25177aba08f09487ca541a925e0a89',
+66 silly get     server: 'cloudflare',
+66 silly get     'content-encoding': 'gzip' } ]
+67 verbose get saving @babel/preset-react to /home/pranali/.npm/registry.npmjs.org/_40babel_252fpreset-react/.cache.json
+68 verbose correctMkdir /home/pranali/.npm correctMkdir not in flight; initializing
+69 info git [ 'clone',
+69 info git   '--template=/home/pranali/.npm/_git-remotes/_templates',
+69 info git   '--mirror',
+69 info git   'https://github.com/babel/loader.git',
+69 info git   '/home/pranali/.npm/_git-remotes/git-https-github-com-babel-loader-git-a160e7d1' ]
+70 http 200 https://registry.npmjs.org/@babel%2fcore
+71 verbose headers { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'transfer-encoding': 'chunked',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'set-cookie': [ '__cfduid=db164a88262ccd12672eb4f6ba72b55d71562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+71 verbose headers   'cf-cache-status': 'HIT',
+71 verbose headers   'cache-control': 'public, max-age=300',
+71 verbose headers   'cf-ray': '4f314bbd5d7eaace-MAA',
+71 verbose headers   age: '4623',
+71 verbose headers   etag: 'W/"91725daa177c3bc8ad3f7b6c328a69e3"',
+71 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+71 verbose headers   'last-modified': 'Thu, 04 Jul 2019 12:58:32 GMT',
+71 verbose headers   vary: 'Accept-Encoding',
+71 verbose headers   'x-amz-meta-rev': '85-356fdbcdb9ad3bbf813db55cf4b57a6e',
+71 verbose headers   server: 'cloudflare',
+71 verbose headers   'content-encoding': 'gzip' }
+72 silly get cb [ 200,
+72 silly get   { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+72 silly get     'content-type': 'application/json',
+72 silly get     'transfer-encoding': 'chunked',
+72 silly get     connection: 'keep-alive',
+72 silly get     'set-cookie': [ '__cfduid=db164a88262ccd12672eb4f6ba72b55d71562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+72 silly get     'cf-cache-status': 'HIT',
+72 silly get     'cache-control': 'public, max-age=300',
+72 silly get     'cf-ray': '4f314bbd5d7eaace-MAA',
+72 silly get     age: '4623',
+72 silly get     etag: 'W/"91725daa177c3bc8ad3f7b6c328a69e3"',
+72 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 silly get     'last-modified': 'Thu, 04 Jul 2019 12:58:32 GMT',
+72 silly get     vary: 'Accept-Encoding',
+72 silly get     'x-amz-meta-rev': '85-356fdbcdb9ad3bbf813db55cf4b57a6e',
+72 silly get     server: 'cloudflare',
+72 silly get     'content-encoding': 'gzip' } ]
+73 verbose get saving @babel/core to /home/pranali/.npm/registry.npmjs.org/_40babel_252fcore/.cache.json
+74 verbose correctMkdir /home/pranali/.npm correctMkdir not in flight; initializing
+75 http 200 https://registry.npmjs.org/@babel%2fpreset-env
+76 verbose headers { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'transfer-encoding': 'chunked',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'set-cookie': [ '__cfduid=db711c48496465f628a8575b96f4c2b691562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+76 verbose headers   'cf-cache-status': 'HIT',
+76 verbose headers   'cache-control': 'public, max-age=300',
+76 verbose headers   'cf-ray': '4f314bbd4e69ab04-MAA',
+76 verbose headers   age: '4663',
+76 verbose headers   etag: 'W/"aec80412dbc09e9065241129bdca3b59"',
+76 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 verbose headers   'last-modified': 'Thu, 04 Jul 2019 12:58:22 GMT',
+76 verbose headers   vary: 'Accept-Encoding',
+76 verbose headers   'x-amz-meta-rev': '80-db86d8425c313672a2a814fe2f7e8da5',
+76 verbose headers   server: 'cloudflare',
+76 verbose headers   'content-encoding': 'gzip' }
+77 silly get cb [ 200,
+77 silly get   { date: 'Mon, 08 Jul 2019 10:15:14 GMT',
+77 silly get     'content-type': 'application/json',
+77 silly get     'transfer-encoding': 'chunked',
+77 silly get     connection: 'keep-alive',
+77 silly get     'set-cookie': [ '__cfduid=db711c48496465f628a8575b96f4c2b691562580914; expires=Tue, 07-Jul-20 10:15:14 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+77 silly get     'cf-cache-status': 'HIT',
+77 silly get     'cache-control': 'public, max-age=300',
+77 silly get     'cf-ray': '4f314bbd4e69ab04-MAA',
+77 silly get     age: '4663',
+77 silly get     etag: 'W/"aec80412dbc09e9065241129bdca3b59"',
+77 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+77 silly get     'last-modified': 'Thu, 04 Jul 2019 12:58:22 GMT',
+77 silly get     vary: 'Accept-Encoding',
+77 silly get     'x-amz-meta-rev': '80-db86d8425c313672a2a814fe2f7e8da5',
+77 silly get     server: 'cloudflare',
+77 silly get     'content-encoding': 'gzip' } ]
+78 verbose get saving @babel/preset-env to /home/pranali/.npm/registry.npmjs.org/_40babel_252fpreset-env/.cache.json
+79 verbose correctMkdir /home/pranali/.npm correctMkdir not in flight; initializing
+80 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror https://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-https-github-com-babel-loader-git-a160e7d1: Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-https-github-com-babel-loader-git-a160e7d1'...
+80 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror https://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-https-github-com-babel-loader-git-a160e7d1: remote: Invalid username or password.
+80 verbose git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror https://github.com/babel/loader.git /home/pranali/.npm/_git-remotes/git-https-github-com-babel-loader-git-a160e7d1: fatal: Authentication failed for 'https://github.com/babel/loader.git/'
+81 silly trySSH attempting to clone git@github.com:babel/loader.git
+82 silly tryClone cloning babel/loader via git@github.com:babel/loader.git
+83 verbose tryClone git-github-com-babel-loader-git-0029d6f1 not in flight; caching
+84 verbose correctMkdir /home/pranali/.npm/_git-remotes correctMkdir not in flight; initializing
+85 info git [ 'clone',
+85 info git   '--template=/home/pranali/.npm/_git-remotes/_templates',
+85 info git   '--mirror',
+85 info git   'git@github.com:babel/loader.git',
+85 info git   '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1' ]
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1'...
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: Permission denied (publickey).
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: fatal: Could not read from remote repository.
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1:
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: Please make sure you have the correct access rights
+86 error git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1: and the repository exists.
+87 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1
+87 silly fetchPackageMetaData Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1'...
+87 silly fetchPackageMetaData Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+87 silly fetchPackageMetaData Permission denied (publickey).
+87 silly fetchPackageMetaData fatal: Could not read from remote repository.
+87 silly fetchPackageMetaData
+87 silly fetchPackageMetaData Please make sure you have the correct access rights
+87 silly fetchPackageMetaData and the repository exists.
+87 silly fetchPackageMetaData
+87 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:199:12)
+87 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+87 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+87 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+87 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+87 silly fetchPackageMetaData  error for babel/loader { Error: Command failed: git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1
+87 silly fetchPackageMetaData Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1'...
+87 silly fetchPackageMetaData Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+87 silly fetchPackageMetaData Permission denied (publickey).
+87 silly fetchPackageMetaData fatal: Could not read from remote repository.
+87 silly fetchPackageMetaData
+87 silly fetchPackageMetaData Please make sure you have the correct access rights
+87 silly fetchPackageMetaData and the repository exists.
+87 silly fetchPackageMetaData
+87 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:199:12)
+87 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+87 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+87 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+87 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+87 silly fetchPackageMetaData   killed: false,
+87 silly fetchPackageMetaData   code: 128,
+87 silly fetchPackageMetaData   signal: null,
+87 silly fetchPackageMetaData   cmd: 'git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1' }
+88 silly rollbackFailedOptional Starting
+89 silly rollbackFailedOptional Finishing
+90 silly runTopLevelLifecycles Finishing
+91 silly install printInstalled
+92 verbose stack Error: Command failed: git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1
+92 verbose stack Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1'...
+92 verbose stack Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+92 verbose stack Permission denied (publickey).
+92 verbose stack fatal: Could not read from remote repository.
+92 verbose stack
+92 verbose stack Please make sure you have the correct access rights
+92 verbose stack and the repository exists.
+92 verbose stack
+92 verbose stack     at ChildProcess.exithandler (child_process.js:199:12)
+92 verbose stack     at emitTwo (events.js:106:13)
+92 verbose stack     at ChildProcess.emit (events.js:191:7)
+92 verbose stack     at maybeClose (internal/child_process.js:920:16)
+92 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+93 verbose cwd /home/pranali/Documents/react_webpack_babel
+94 error Linux 4.15.0-54-generic
+95 error argv "/usr/bin/node" "/usr/bin/npm" "i" "@babel/core" "babel/loader" "@babel/preset-env" "@babel/preset-react" "--save-dev"
+96 error node v6.14.3
+97 error npm  v3.10.10
+98 error code 128
+99 error Command failed: git clone --template=/home/pranali/.npm/_git-remotes/_templates --mirror git@github.com:babel/loader.git /home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1
+99 error Cloning into bare repository '/home/pranali/.npm/_git-remotes/git-github-com-babel-loader-git-0029d6f1'...
+99 error Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+99 error Permission denied (publickey).
+99 error fatal: Could not read from remote repository.
+99 error
+99 error Please make sure you have the correct access rights
+99 error and the repository exists.
+100 error If you need help, you may report this error at:
+100 error     <https://github.com/npm/npm/issues>
+101 verbose exit [ 1, true ]

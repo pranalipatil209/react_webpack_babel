@@ -1,0 +1,15 @@
+{
+  "name": "react_webpack_babel",
+  "version": "1.0.0",
+  "description": "React tutorials with setup and impletentation from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranalipatil209",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
